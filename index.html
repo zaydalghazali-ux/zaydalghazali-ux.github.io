@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zayd Alghazali - UX Researcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Notification Banner -->
+    <div class="notification-banner" id="tempBanner">
+        <div class="notification-content">
+            <span class="notification-icon">🚧</span>
+            <p><strong>Portfolio in Progress:</strong> This is a temporary showcase. My permanent site is being developed and will feature two additional client projects—The Trevor Project and LiveLook (Michigan startup).</p>
+            <button class="notification-close" onclick="document.getElementById('tempBanner').style.display='none'">×</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Zayd Alghazali</a>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm Zayd</h1>
+            <p class="hero-subtitle">UX Researcher & Designer specializing in physical interaction design and accessibility.</p>
+            
+            <p class="hero-text">I test interfaces to find where they fail, then redesign them based on what users actually need. Most recently: touchscreen kiosks and mobile apps—figuring out how people tap, swipe, and navigate while distracted, wearing gloves, or moving.</p>
+            
+            <div class="hero-cta">
+                <a href="#work" class="btn-primary">View Work</a>
+                <a href="mailto:zaydalgh@umich.edu" class="btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2>Selected Work</h2>
+            
+            <!-- Project 1: Library Kiosk -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tag">UX Research • Physical HMI • Accessibility</div>
+                    <h3>MSU Library Interactive Kiosk</h3>
+                    
+                    <p>A public touchscreen wayfinding system had a 0% task success rate. I ran usability tests with 3 participants to figure out why—turns out the display looked static (no one realized they could interact with it), touch sensitivity was terrible, and there were zero accessibility features. I redesigned the idle state, built a 7-toggle accessibility menu based on WCAG standards, and added progressive disclosure wayfinding inspired by a competitor's system.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">0%</span>
+                            <span class="highlight-label">Initial Task Success Rate</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">7</span>
+                            <span class="highlight-label">Accessibility Features</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">3</span>
+                            <span class="highlight-label">Usability Testing Sessions</span>
+                        </div>
+                    </div>
+                    
+                    <a href="library-kiosk.html" class="project-link">View Case Study →</a>
+                </div>
+            </div>
+
+            <!-- Project 2: OneMSU -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tag">UX Research • Mobile HMI • Information Architecture</div>
+                    <h3>OneMSU: Campus Mobile Consolidation</h3>
+                    
+                    <p>MSU students were juggling 5+ separate campus apps just to check dining hours, find parking, and access safety features. Through interviews with 8 students, I found that 68% abandoned tasks because they couldn't figure out which app had what they needed. I redesigned the information architecture around how students actually think about their tasks—not how IT departments organize systems—and made safety features accessible from any screen instead of buried in a separate app.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-label">Apps Consolidated</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">68%</span>
+                            <span class="highlight-label">Reported App Abandonment</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">4</span>
+                            <span class="highlight-label">Core Task Categories</span>
+                        </div>
+                    </div>
+                    
+                    <a href="onemsu.html" class="project-link">View Case Study →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container-small">
+            <h2>About Me</h2>
+            
+            <p>I'm a UX Researcher at the University of Michigan, and I'm fascinated by why people struggle with interfaces and how to fix them. I run usability tests, watch people interact with designs, and redesign based on what actually works—not what looks good in theory.</p>
+            
+            <p>Right now I'm focused on physical interaction design—touchscreens, mobile apps, anything people use with their hands in real-world contexts. I'm particularly interested in how context changes everything: a button that works at a desk might be impossible to hit while walking or wearing gloves.</p>
+
+            <p>My approach blends behavioral insight with hands-on testing. I care less about visual polish and more about removing friction—making systems that work better for real people in messy, real-world conditions.</p>
+
+            <h3>Skills & Methods</h3>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <strong>Research Methods</strong>
+                    <p>Moderated usability testing, think-aloud protocol, heuristic evaluation, competitive analysis, field studies</p>
+                </div>
+                <div class="skill-item">
+                    <strong>Design</strong>
+                    <p>Information architecture, accessibility-first design, physical HMI, mobile interaction patterns, Figma, prototyping</p>
+                </div>
+                <div class="skill-item">
+                    <strong>Analysis</strong>
+                    <p>Qualitative synthesis, task analysis, cognitive walkthroughs, WCAG compliance validation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-small">
+            <h2>Let's Connect</h2>
+            
+            <p>I'm looking for UX Research internships for Summer 2026, especially roles working on physical interfaces, in-vehicle systems, or accessibility.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:zaydalgh@umich.edu" class="contact-link">
+                    <span class="contact-icon">✉️</span>
+                    <span>zaydalgh@umich.edu</span>
+                </a>
+                <a href="https://www.linkedin.com/in/zaydalghazali" class="contact-link" target="_blank">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="Zayd_Alghazali_Resume.pdf" class="contact-link" download>
+                    <span class="contact-icon">📄</span>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Zayd Alghazali. Designed with focus on accessibility and clarity.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

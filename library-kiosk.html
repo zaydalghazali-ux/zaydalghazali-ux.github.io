@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSU Library Interactive Kiosk - Zayd Alghazali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">← Back to Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="case-hero">
+        <div class="container">
+            <div class="case-meta">
+                <span>UX Research</span>
+                <span>•</span>
+                <span>Physical HMI</span>
+                <span>•</span>
+                <span>Accessibility</span>
+            </div>
+            
+            <h1>MSU Library Interactive Kiosk</h1>
+            
+            <p class="case-subtitle">Redesigning a public touchscreen wayfinding system for physical interaction constraints and multimodal accessibility.</p>
+            
+            <div class="case-details">
+                <div><strong>Role:</strong> UX Researcher</div>
+                <div><strong>Timeline:</strong> 4 weeks</div>
+                <div><strong>Team:</strong> 3 researchers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Image -->
+    <div class="full-width-image">
+        <img src="images/library-kiosk-idle.png" alt="Library kiosk idle state with TOUCH SCREEN TO BEGIN prompt">
+        <p class="image-caption">Redesigned idle state with clear affordance and persistent accessibility icon</p>
+    </div>
+
+    <!-- Outcome -->
+    <section class="case-section">
+        <div class="container-narrow">
+            <h2>The Outcome</h2>
+            
+            <p>I redesigned an interactive library kiosk with a 0% wayfinding success rate. Through usability testing and competitive analysis, I identified critical failures in touchscreen affordance, physical interaction, and accessibility.</p>
+            
+            <p>The core problem: Students couldn't navigate to rooms because the display looked static (poor affordance), touch sensitivity required multiple taps, and zero accessibility features existed despite ADA requirements for public facilities.</p>
+        </div>
+    </section>
+
+    <!-- Three Metrics -->
+    <section class="metrics-section">
+        <div class="container">
+            <h2>Key Findings</h2>
+            
+            <div class="metrics-grid-large">
+                <div class="metric-card-large">
+                    <span class="metric-number-large">0%</span>
+                    <span class="metric-label-large">Task Success Rate</span>
+                    <p>None of 3 participants could locate their target room. Maps showed layouts but provided no "you are here" indicator or directional guidance.</p>
+                </div>
+
+                <div class="metric-card-large">
+                    <span class="metric-number-large">2-3×</span>
+                    <span class="metric-label-large">Taps Required</span>
+                    <p>Touch sensitivity issues required 67-100% more taps than industry standard (target: <1.2 taps per interaction).</p>
+                </div>
+
+                <div class="metric-card-large">
+                    <span class="metric-number-large">0/7</span>
+                    <span class="metric-label-large">WCAG Standards Met</span>
+                    <p>Zero accessibility features implemented. No contrast adjustment, text sizing, audio support, or keyboard navigation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Process -->
+    <section class="case-section alt-bg">
+        <div class="container-narrow">
+            <h2>Research & Methods</h2>
+            
+            <h3>Moderated Usability Testing</h3>
+            
+            <p>Recruited 3 participants representing diverse library users. Used think-aloud protocol with 3 standardized tasks:</p>
+            
+            <ul class="clean-list">
+                <li>Find the next MSU event</li>
+                <li>Find a librarian's email address</li>
+                <li>Navigate to the Red Cedar Instruction Room</li>
+            </ul>
+            
+            <h3>Competitive Analysis</h3>
+            
+            <p>Benchmarked against Broad College of Business and Law Building displays. Broad's system achieved significantly higher task completion through visual wayfinding (floor maps + "you are here" + turn-by-turn directions).</p>
+            
+            <h3>Heuristic Evaluation</h3>
+            
+            <p>Systematic review against Nielsen's usability principles and WCAG 2.1 AA accessibility standards. Identified 7 critical violations affecting discoverability, feedback, and universal access.</p>
+        </div>
+    </section>
+
+    <!-- Key Insight -->
+    <section class="case-section">
+        <div class="container-narrow">
+            <h2>The Critical Insight</h2>
+            
+            <div class="insight-box">
+                <p class="insight-text">"I had no idea the screen was interactive—I thought it was just displaying library hours."</p>
+                <p class="insight-attribution">— Ashley, 22, Kinesiology major</p>
+            </div>
+            
+            <p>Users walked past without realizing they could interact. The fundamental problem: poor affordance. The display looked static—no visual cues, no motion, no prompts, no clear call-to-action.</p>
+            
+            <p>Second critical finding: Even when users did interact, maps showed room locations but provided no guidance on how to get there. All 3 participants expressed confusion about spatial terms like "West Wing, 2nd Floor" and couldn't translate map positions into physical navigation.</p>
+            
+            <div class="insight-box" style="margin-top: 32px;">
+                <p class="insight-text">"I guess I'm supposed to just know it's on the West wing second floor? I don't believe I could actually find the room."</p>
+                <p class="insight-attribution">— Ashley</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution -->
+    <section class="case-section alt-bg">
+        <div class="container-narrow">
+            <h2>The Solution</h2>
+            
+            <div class="solution-block">
+                <h3><span class="solution-num">1</span>Fixed Affordance Problem</h3>
+                
+                <p>Redesigned idle state with prominent "TOUCH SCREEN TO BEGIN" prompt using high-contrast typography and MSU branding. Made the accessibility icon permanently visible in the top-right corner.</p>
+                
+                <p><strong>Design rationale:</strong> Static text outperforms motion graphics for accessibility—motion can trigger vestibular disorders and would be distracting in quiet library environment.</p>
+            </div>
+
+            <div class="solution-block">
+                <h3><span class="solution-num">2</span>Built Multimodal Accessibility System</h3>
+                
+                <div class="full-width-image" style="margin: 32px 0; max-width: 600px;">
+                    <img src="images/library-kiosk-accessibility.png" alt="Accessibility preferences menu showing 7 toggle options">
+                    <p class="image-caption">7 configurable accessibility options based on WCAG 2.1 AA</p>
+                </div>
+                
+                <p>Added 7 configurable accessibility options based on WCAG 2.1 AA requirements:</p>
+                
+                <ul class="solution-list">
+                    <li><strong>Contrast:</strong> High contrast mode for low vision users</li>
+                    <li><strong>Plain English:</strong> Simplified language for cognitive accessibility</li>
+                    <li><strong>Keyboard-only:</strong> Navigate without touch (motor disabilities)</li>
+                    <li><strong>Logic & Headers:</strong> Semantic structure for screen readers</li>
+                    <li><strong>LARGE:</strong> Increased font size (18pt → 24pt)</li>
+                    <li><strong>Image + alt:</strong> Alt text for all visual elements</li>
+                    <li><strong>Fonts:</strong> Accessible typefaces (OpenDyslexic option)</li>
+                </ul>
+                
+                <p>Plus icon-based navigation preferences for audio, cognitive, and sound-based wayfinding.</p>
+                
+                <p><strong>Why these 7?</strong> Based on MSU disability services data showing most-requested accommodations. Each toggle enables/disables specific WCAG success criteria.</p>
+            </div>
+
+            <div class="solution-block">
+                <h3><span class="solution-num">3</span>Implemented Progressive Disclosure Wayfinding</h3>
+                
+                <p>Inspired by Broad College's successful system. Four-step progression:</p>
+                
+                <ul class="solution-list">
+                    <li>Show floor overview map first (spatial context)</li>
+                    <li>Highlight destination room on map (visual confirmation)</li>
+                    <li>Display "YOU ARE HERE" indicator with directional arrows</li>
+                    <li>Provide turn-by-turn text instructions</li>
+                </ul>
+                
+                <p><strong>Design principle:</strong> Users need both spatial context (map view) and step-by-step guidance (directions). Mirrors modern automotive navigation UX—early GPS showed only maps; modern systems combine map + turn-by-turn + voice + lane guidance.</p>
+            </div>
+
+            <div class="solution-block">
+                <h3><span class="solution-num">4</span>Simplified Navigation Architecture</h3>
+                
+                <p>Consolidated duplicate features (Maps vs. Find a Location vs. Directions) into task-based categories: Conference Rooms, Study Rooms, Restrooms, Elevators, Departments.</p>
+                
+                <p>Added search/filter: "Filter by Name, Floor, Room #, Type of Classroom"</p>
+                
+                <p><strong>Why task-based?</strong> Users think in goals ("find a study room"), not system features ("check Maps tab vs. Find a Location tab"). Reduces cognitive load and navigation time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Went Wrong -->
+    <section class="case-section">
+        <div class="container-narrow">
+            <h2>What I Got Wrong</h2>
+            
+            <div class="reflection-block">
+                <h3>We Never Validated the Redesign</h3>
+                
+                <div class="warning-highlight">
+                    <p><strong>⚠ The critical gap:</strong> We designed solutions based on 3 user tests but never tested whether our fixes actually work.</p>
+                </div>
+                
+                <div class="should-have-box">
+                    <p><strong>What we should have done:</strong></p>
+                    <ul>
+                        <li>Tested redesigned prototype with 10+ new participants</li>
+                        <li>Measured whether task success improved from 0% to target 75%</li>
+                        <li>Validated accessibility features with users who need them (partner with disability services)</li>
+                        <li>A/B tested on physical hardware to confirm touch sensitivity improvements</li>
+                    </ul>
+                </div>
+                
+                <p><strong>Why we didn't:</strong> 4-week academic project timeline</p>
+                
+                <p><strong>The learning:</strong> In professional work, validation isn't optional—it's the primary deliverable. You don't ship based on assumption. You require empirical evidence through user clinics, simulator testing, and field validation.</p>
+            </div>
+
+            <div class="reflection-block">
+                <h3>Sample Size Too Small</h3>
+                
+                <p><strong>3 participants ≠ generalizable findings</strong></p>
+                
+                <p>Industry standard: 5 for qualitative insights, 15-30 for quantitative task analysis. Our findings identify problems but can't statistically validate solutions.</p>
+                
+                <div class="should-have-box">
+                    <p><strong>If I did this again:</strong></p>
+                    <ul>
+                        <li>Recruit 15+ participants across diverse groups</li>
+                        <li>Use statistical analysis to validate patterns</li>
+                        <li>Test edge cases (winter gloves, wet hands, wheelchair users at different heights)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="reflection-block">
+                <h3>Missing Quantitative Rigor</h3>
+                
+                <p><strong>What we captured:</strong> Qualitative observations ("Ashley struggled," "took a while")</p>
+                
+                <p><strong>What professional work requires:</strong> Precise metrics (task time: 2m 14s ± 18s, error count: 4.2 per task, SUS score: 42/100)</p>
+                
+                <p>We noted "about 2 minutes" instead of timing precisely. We observed "multiple taps" instead of counting exact errors. For professional work, these become engineering specifications, not just observations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- If This Continued -->
+    <section class="case-section alt-bg">
+        <div class="container-narrow">
+            <h2>If This Project Continued</h2>
+            
+            <p>Three-phase validation plan:</p>
+            
+            <div class="timeline-simple">
+                <div class="timeline-phase">
+                    <div class="phase-tag">Phase 1 - Week 1</div>
+                    <h4>Validate Redesign</h4>
+                    <p>Test Figma prototype with 10 participants. Measure task success rate, completion time, SUS score.</p>
+                    <p class="phase-target"><strong>Target:</strong> Task 3 success ≥75%, time <90s, SUS score ≥70</p>
+                </div>
+
+                <div class="timeline-phase">
+                    <div class="phase-tag">Phase 2 - Weeks 2-3</div>
+                    <h4>Hardware Testing</h4>
+                    <p>Deploy on actual kiosk. A/B test old vs. new interface with 100+ real interactions.</p>
+                    <p class="phase-target"><strong>Target:</strong> Engagement rate ≥25% (5× improvement), touch sensitivity <1.2 taps</p>
+                </div>
+
+                <div class="timeline-phase">
+                    <div class="phase-tag">Phase 3 - Week 4</div>
+                    <h4>Accessibility Validation</h4>
+                    <p>Partner with disability services. Test screen reader, keyboard navigation, high contrast with users who rely on these features.</p>
+                    <p class="phase-target"><strong>Target:</strong> 100% WCAG 2.1 AA compliance verified with assistive technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honest Assessment -->
+    <section class="case-section">
+        <div class="container-narrow">
+            <h2>Honest Assessment</h2>
+            
+            <div class="assessment-grid-vertical">
+                <div class="assessment-box proves">
+                    <h4>✓ What this project demonstrates:</h4>
+                    <p>I can identify usability issues through structured testing, benchmark against competitors, and design accessibility-first solutions for physical interaction contexts.</p>
+                </div>
+
+                <div class="assessment-box gap">
+                    <h4>⚠ What it doesn't demonstrate yet:</h4>
+                    <p>I didn't validate designs with rigorous quantitative data—a core requirement for professional work.</p>
+                </div>
+
+                <div class="assessment-box bring">
+                    <h4>→ Growth areas I'm aware of:</h4>
+                    <p>Larger sample sizes for statistical validity, quantitative analysis methods, hardware prototyping with technical constraints, systematic A/B testing protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Navigation -->
+    <section class="case-footer">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="footer-nav-link disabled">
+                    <span class="footer-nav-label">← Previous Project</span>
+                    <span class="footer-nav-title">None</span>
+                </div>
+                
+                <a href="index.html" class="footer-nav-link center">
+                    <span class="footer-nav-label">Back to</span>
+                    <span class="footer-nav-title">All Projects</span>
+                </a>
+                
+                <a href="onemsu.html" class="footer-nav-link">
+                    <span class="footer-nav-label">Next Project →</span>
+                    <span class="footer-nav-title">OneMSU Campus Mobile</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Zayd Alghazali</p>
+        </div>
+    </footer>
+
+</body>
+</html>
